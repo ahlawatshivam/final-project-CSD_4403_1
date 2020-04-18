@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> Star Transport Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="logo-text">
+			 Star Transport
+		</div>
+		<nav class="nav-bar">
+			<ul>
+				<li><a id="nav-item" href="index.html">Car</li>
+				<li><a id="nav-item" href="vehicle-list.html">Customer</a></li>
+				<li><a id="nav-item" href="contactus.html">Discount</a></li>
+				<li><a id="nav-item" href="aboutus.html">Billing</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="banner">
+		<img class="banner-img" src="images/banner.jpg" style="height: 14em;">
+		<div class="banner-text" style="font-size: 2em; color: black;"><a href="index.html" style="color: white;">Home</a> / Vehicle List</div>
+	<div>	
+		<main style="padding: 3em;">
+			<div class="container" style="float: left;">
+				 <form onSubmit="myFunction()">
+	   
+				   <label for="firstname">Customer Id</label>
+				   <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+	   
+				   <label for="lastname">Customer Name</label>
+				   <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+	   
+				   <label for="phone">Phone number</label>
+				   <input type="text" id="phone" name="phone" placeholder="111-222-3333" required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}">
+	   
+	   
+				   <label for="vehicles">Address</label>
+				   <input type="text" id="fname" name="firstname" placeholder="Your address" required>
+
+
+				   <label for="date">Email</label>
+				   <input type="text" id="fname" name="firstname" placeholder="Your email" required>
+				   <label for="message">Message</label>
+				   <textarea id="message" name="message" placeholder="Write your message here..." style="height:200px"></textarea>
+	   
+				   <input type="submit">
+				   <br>
+				   <span id="submitLabel"></span>
+				 </form>
+			   </div> 
+
+
+<footer class="footer">
+  	<div class="quick-links">
+  		<h3>Quick Links</h3>
+  		<ul class="link-list" >
+  			<li id="list2"><a href="index.html">Home</li>
+			<li id="list2"><a href="vehicle-list.html">Vehicles</a></li>
+			<li id="list2"><a href="contactus.html">Contact Us</a></li>
+			<li id="list2"><a href="aboutus.html">About Us</a></li>
+		</ul>
+  	</div>
+  	<div class="contact-info">
+  		<h3>Get In Touch</h3>
+  		<div class="link-list">
+  			+1 437-983-3333<br>
+  			Star Transport Servies<br>
+  			<i>#540, Queen Street</i><br>
+  			<i>Toronto, Ontario</i><br>
+  			Canada
+  		</div>
+  	</div>
+  	<div class="social">
+  		<h3>Follow Us</h3>
+  		<ul class="social-list">
+  			<li><a href="https://www.facebook.com"><img class="icons" src="fb-icon.png"></a></li>
+  			<li><a href="https://www.instagram.com"><img class="icons" src="insta-icon.png"></a></li>
+  			<li><a href="https://www.linkedin.com"><img class="icons" src="in-icon.png"></a></li>
+  			<li><a href="https://www.twitter.com"><img class="icons" src="twit-icon.png"></a></li>
+  		</ul>
+
+  	</div>
+
+  </footer>
+</body>
+</html>
